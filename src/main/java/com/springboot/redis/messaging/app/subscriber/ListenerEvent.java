@@ -11,7 +11,7 @@ public class ListenerEvent implements MessageListener{
 	
 	@Override
 	public void onMessage(Message message, byte[] pattern) {
-		logger.info("Consumed event successfully");
+		logger.info("Consumed event successfully {}", message);
 	}
 
 }
